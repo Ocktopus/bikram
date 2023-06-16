@@ -29,5 +29,10 @@ let booleanoMix0= (booleano1 || booleano2 ) && (booleano1 ||(!booleano1 && !bool
 
 //8.- Crear variable **incrementarDesp** con valor **2** y **asigna su valor con postincremento a resultadoDesp**
 
-let incrementarDesp = 2;
-let resultadoDesp= incrementarDesp+=;
+let incrementarDesp=2;
+let resultadoDesp= ++incrementarDesp
+
+// 9.- Crear variable **incrementarAntes** con valor **2** y **asigna su valor con preincremento a resultadoAntes**
+
+let incrementarAntes=2;
+let resultadoAntes= --incrementarAntes;
